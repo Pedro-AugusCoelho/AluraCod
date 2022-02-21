@@ -6,7 +6,7 @@ import { createClient } from '@supabase/supabase-js'
 import { ButtonSendSticker } from '../src/components/ButtonSendSticker';
 
 // Como fazer AJAX: https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTY0MzgyODY5OCwiZXhwIjoxOTU5NDA0Njk4fQ.9GG6zb9gHOeUtElbZKajdFuX2sI1mOmPKHAOtk-yCEo';
+const SUPABASE_ANON_KEY = '';
 const SUPABASE_URL = 'https://jeczjvvxkpbqkcwtsepl.supabase.co';
 const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
